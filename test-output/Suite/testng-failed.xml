@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Browsername" value="Chrome"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="saucedemoTestclass.TC03_allproductaddtocart">
+        <methods>
+          <include name="teardown2"/>
+          <include name="allproductaddtocart"/>
+          <include name="teardown1"/>
+          <include name="setup1"/>
+          <include name="setup2"/>
+        </methods>
+      </class> <!-- saucedemoTestclass.TC03_allproductaddtocart -->
+      <class name="saucedemoTestclass.TC02_addtocart">
+        <methods>
+          <include name="teardown2"/>
+          <include name="teardown1"/>
+          <include name="addtocartfun"/>
+          <include name="setup1"/>
+          <include name="setup2"/>
+        </methods>
+      </class> <!-- saucedemoTestclass.TC02_addtocart -->
+      <class name="saucedemoTestclass.TC04_orderplace">
+        <methods>
+          <include name="teardown2"/>
+          <include name="orderplace"/>
+          <include name="teardown1"/>
+          <include name="setup1"/>
+          <include name="setup2"/>
+        </methods>
+      </class> <!-- saucedemoTestclass.TC04_orderplace -->
+      <class name="saucedemoTestclass.TC01_loginfun">
+        <methods>
+          <include name="teardown2"/>
+          <include name="teardown1"/>
+          <include name="setup1"/>
+          <include name="setup2"/>
+          <include name="loginfunctionality"/>
+        </methods>
+      </class> <!-- saucedemoTestclass.TC01_loginfun -->
+      <class name="saucedemoTestclass.TC05_filtercheck">
+        <methods>
+          <include name="teardown2"/>
+          <include name="teardown1"/>
+          <include name="filtercheck"/>
+          <include name="setup1"/>
+          <include name="setup2"/>
+        </methods>
+      </class> <!-- saucedemoTestclass.TC05_filtercheck -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
