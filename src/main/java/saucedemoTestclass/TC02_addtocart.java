@@ -18,7 +18,6 @@ public class TC02_addtocart extends saucedemotestbaseclass
 	{
 		ExtentTest test2=extent.createTest("Add to cart Test");
 		
-		
 		POMHomepage homeval =new POMHomepage(driver);
 		homeval.clickbagpack();
 		String actualresult= homeval.gettextcart();
